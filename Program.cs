@@ -28,15 +28,12 @@ namespace sinfkavrami
 
             //*****Çalışan sınıfından bir instance/ bir örnek yaratıyoruz:
 
-            Calisan calisan1 = new Calisan();
-            calisan1.Ad= "Ayşe";
-            calisan1.Soyad="Deniz";
-            calisan1.No=1234;
-            calisan1.Departman="Satin alma";
-
+            Console.WriteLine("***Çalışan 1****");
+            
+            Calisan calisan1 = new Calisan("Ayşe","Deniz",1234,"Satin alma");
             calisan1.calisanBilgileri();
 
-            Console.WriteLine("*************");
+            Console.WriteLine("***Çalışan 2****");
 
             Calisan calisan2 = new Calisan();
             calisan2.Ad= "Umut";
@@ -45,6 +42,12 @@ namespace sinfkavrami
             calisan2.Departman="İK";
 
             calisan2.calisanBilgileri();
+
+            Console.WriteLine("***Çalışan 3****");
+            Calisan calisan3 = new Calisan("Nesli","Yetik");
+
+            calisan3.calisanBilgileri();
+        
         }
 
     }
@@ -58,6 +61,34 @@ namespace sinfkavrami
         public int No;
 
         public string Departman;
+
+        public Calisan(string ad, string soyad, int no, string departman)
+
+        {
+            this.Ad = ad;
+            this.Soyad = soyad;
+            this.No= no;
+            this.Departman= departman;
+
+        }
+
+        public Calisan(string ad, string soyad)
+
+        {
+            this.Ad = ad;
+            this.Soyad = soyad;
+        }
+
+        public Calisan(){}
+
+        //Kurucu metot özellikleri:
+            //*bir sınıfın new ile yeni bir nesnesini oluşturduğumuzda arka planda otomatik olarak çalıştırılan metotlara kurucu metotlar denir.
+            //*kurucu metotların ismi sınıf ismi ile aynı olmak zorundadır.
+            //*kurucu metotların erişim belirleyicileri public olmak zorundadır.
+            //*kurucu metotların geri dönüş tipi yoktur.
+            //*kurucu metotlar, normal fonksiyonlar gibi overload edilebilir.
+
+
 
         //çalışan sınıfının bilgilerini getiren metod:
 
