@@ -1,0 +1,15 @@
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.csproj.AssemblyReference.cache
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.AssemblyInfoInputs.cache
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.AssemblyInfo.cs
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.csproj.CoreCompileInputs.cache
+C:\Pratikler\sinifkavrami\bin\Debug\net7.0\sinifkavrami.exe
+C:\Pratikler\sinifkavrami\bin\Debug\net7.0\sinifkavrami.deps.json
+C:\Pratikler\sinifkavrami\bin\Debug\net7.0\sinifkavrami.runtimeconfig.json
+C:\Pratikler\sinifkavrami\bin\Debug\net7.0\sinifkavrami.dll
+C:\Pratikler\sinifkavrami\bin\Debug\net7.0\sinifkavrami.pdb
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.dll
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\refint\sinifkavrami.dll
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.pdb
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\sinifkavrami.genruntimeconfig.cache
+C:\Pratikler\sinifkavrami\obj\Debug\net7.0\ref\sinifkavrami.dll
